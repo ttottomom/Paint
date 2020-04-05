@@ -85,7 +85,7 @@ namespace WindowsFormsApp3
                 while (m_nMinusCount > -1000)
                 {
                     int nValue = m_nValue - 1;
-                    Thread.Sleep(1);
+                    Thread.Sleep(10);
                     m_nValue = nValue;
                     //label1.Text = Convert.ToString(m_nValue);
                     Invoke(DelegateShowTextInstance, new object[] { "label1", Convert.ToString(m_nValue) });
