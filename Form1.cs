@@ -34,13 +34,13 @@ namespace WindowsFormsApp3
             switch(strLabel)
             {
                 case "label1":
-                    label1.Text = StrText;
+                    label1.Text = "label1";
                     break;
                 case "label2":
-                    label2.Text = StrText;
+                    label2.Text = "label2";
                     break;
                 case "label3":
-                    label3.Text = StrText;
+                    label3.Text = "label3";
                     break;
             }
         }
